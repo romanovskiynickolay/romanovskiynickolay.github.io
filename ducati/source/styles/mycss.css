@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, serif;
+    background: linear-gradient(90deg, #ff0000 0%, #000000 90%);
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(255, 0, 0);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(255, 255, 255);
+}
+
+.sidebar {
+    color: rgb(255, 255, 255);
+    background: hsl(0, 0%, 15%);
+    border-radius: 8px;
+
+}
+
+.card {
+    background: linear-gradient(180deg, #bbbbbb 0%, #f6f6f6 90%);
+}
+
+.btn-primary {
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
+    color: #f6f6f6;
+}
+
+.text-in-card {
+    text-decoration: none;
+    color: #000000;
+}
+
+.slide-text, .footer-text{
+    color: #ffffff;
+    margin: auto auto;
+}
+
+.carousel-inner{
+    padding-bottom: 3em;
+}
+.gp-container{
+background: #ffffff;
+}
+
+footer{
+    background: hsl(0, 0%, 15%);
+
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    justify-items:center;
+    padding-top: 1.3em;
+}
+.motogp-anim{
+animation: motogp 2s linear 0s infinite normal none;
+}
+
+@keyframes motogp {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@media (max-width: 755px){
+carousel-indicators{
+    display: none;}
+}
+
